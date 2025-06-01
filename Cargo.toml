@@ -1,0 +1,13 @@
+[package]
+name = "knn"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+image = "0.25.6"
+ndarray = "0.16.1"
+ndarray-linalg = { version = "0.17.0", features = ["intel-mkl"] }
+openblas-src = { version = "0.10.1", features = ["system"] }
+num-complex = "0.4.6"
+rayon = "1.10.0"
+memmap2 = "0.9.5"
